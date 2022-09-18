@@ -1,10 +1,10 @@
-body{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.row{
+body{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
 }

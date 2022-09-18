@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuComponent as Menu } from '../menu/menu.component';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor() { }
+  title: string;
+  
+  constructor() {
+    this.title = 'Cargando título...';
+  }
 
   ngOnInit(): void {
   }
-
 }

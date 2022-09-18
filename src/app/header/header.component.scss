@@ -1,0 +1,19 @@
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+.flexstart{
+    align-self: flex-start;
+}
+ul li{
+    list-style: none;
+}
+.title{
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
