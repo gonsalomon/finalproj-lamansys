@@ -7,10 +7,10 @@ import { MenuComponent as Menu } from '../menu/menu.component';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  title: string;
+  title: String;
   
   constructor() {
-    this.title = 'Cargando título...';
+    this.title = 'Mis proyectos';
   }
 
   ngOnInit(): void {
